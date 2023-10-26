@@ -79,10 +79,15 @@ console.log(myFun.toString())
 */
 
 
+// Adde new method
+function myfun(){
+   let  d = 0;
+   function myfun2(){
+   return d++;
+}
+   return myfun()
 
-
-
-
+}
 
 
 
